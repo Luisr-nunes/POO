@@ -1,0 +1,15 @@
+package br.com.minhaempresa.primeiroexemplo;
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.GetMapping;
+
+
+@RestController
+public class HelloController {
+
+    @GetMapping("/hello")
+    public String Hello()  {
+        return "Bem vindo ao Spring Boot";
+    }
+    
+}
