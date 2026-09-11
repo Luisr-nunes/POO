@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Inserir / editar cliente</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<h1>Inserir / editar cliente</h1>
+
+<form action="/salvar" method="post">
+    <input type="hidden" name="id" th:value="${cliente.id}">
+    <label>Nome:</label>
+    <input type="text" name="nome"
+           th:value="${cliente.nome}" minlength="3" maxlength="50"><p>
+    <label>e-mail:</label>
+    <input type="email" name="email"
+           th:value="${cliente.email}" required><p>
+    <label>Idade:</label>
+    <input type="number" name="idade" th:value="${cliente.idade}" min="0" max="140" required><p>
+    <button type="submit">Salvar Alterações</button>
+</form>
+<a href="/">Voltar</a> </body></html>
