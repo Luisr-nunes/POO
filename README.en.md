@@ -1,5 +1,8 @@
 # Object-Oriented Programming
 
+<!-- badges -->
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Thymeleaf](https://img.shields.io/badge/Thymeleaf-005F0F?style=flat-square&logo=thymeleaf&logoColor=white) ![H2](https://img.shields.io/badge/H2-1F5C99?style=flat-square) ![Maven](https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
+
 [Ler em Português](README.md)
 
 Exercises and projects from the Object-Oriented Programming course, in Java 17 and Spring Boot.
